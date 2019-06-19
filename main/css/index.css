@@ -1,0 +1,256 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 35px;
+    background-color:#f8f8f8;
+}
+.top > .wrap-content{
+    width: 90%;
+    height: 100%;
+    float: right;
+}
+.top > .wrap-content > .logo{
+    float: left;
+}
+.top > .wrap-content > .search{
+    float: left;
+    position: absolute;
+    top: 2px;
+    left: 40%;
+}
+.top > .wrap-content > .search > input{
+    width: 300px;
+    height: 25px;
+    font-size: 12px;
+    padding-left: 30px;
+    background-image: url(../img/icon/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.top > .wrap-content > .icon{
+    float: left;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 15%;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4e4c4c;
+}
+.top > .wrap-content > .icon > .shouye,.video,.msg{
+    width: 60px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.top > .wrap-content > .icon > .shouye:hover,.video:hover,.msg:hover{
+    color: #33cccc;
+}
+.top > .wrap-content > .icon > .shouye{
+    background-image: url(../img/icon/shouye.png);
+}
+.top > .wrap-content > .icon > .video{
+    background-image: url(../img/icon/video.png);
+}
+.top > .wrap-content > .icon > .msg{
+    background-image: url(../img/icon/msg.png);
+}
+.top > .wrap-content > .sub{
+    float: left;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 5%;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4e4c4c;
+    cursor: pointer;
+}
+.top > .wrap-content > .sub > .desc{
+    width: 56px;
+    position: absolute;
+    top: 35px;
+    right: 70px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    background-color:#f8f8f8;
+    z-index: 2;
+    display: none;
+}
+.top > .wrap-content > .sub > .desc > p{
+    width: 100%;
+    height: 30px;
+}
+.top > .wrap-content > .sub > .desc > p:hover{
+    color: #f8f8f8;
+    background-color: #33cccc;
+    font-size: 13px;
+}
+.top > .wrap-content > .sub > span:hover{
+    color: #33cccc;
+}
+
+/* 中部部分 */
+.main{
+    margin-top: 30px;
+    width: 100%;
+    height: 900px;
+}
+.main > .main-wrap{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.main > .main-wrap > .left{
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.main > .main-wrap > .left > .nav{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.main > .main-wrap > .left > .nav:hover{
+    color: #f2f2f2;
+    background-color: #33cccc;
+    font-size: 18px;
+}
+.main > .main-wrap > .left > .active{
+    color: #f2f2f2;
+    background-color: #33cccc;
+    font-size: 18px;
+}
+.main > .main-wrap > .middle{
+    width: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+.main > .main-wrap > .middle > .banner{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main > .main-wrap > .middle > .content{
+    width: 90%;
+    margin: 0 auto;
+}
+.main > .main-wrap > .middle > .content > .content-wrap{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-bottom: 2px solid #f2f2f2;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .con{
+    font-size: 13px;
+    color: #cccccc;
+    height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .id{
+    display: none;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .info{
+    margin-top: 5px;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .info > .author,.type,.date,.like_num,.com_num{
+    font-size: 13px;
+    font-weight: 400;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .info > .type,.date,.like_num,.com_num{
+    color: #cccccc;
+}
+.main > .main-wrap > .middle > .content > .content-wrap > .info >.like_num,.com_num{
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.main > .main-wrap > .right{
+    width: 25%;
+    background: #f2f2f4;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 20px;
+    right: 3%;
+}
+.main > .main-wrap > .right > .recommend{
+    width: 90%;
+    background: #ffffff;
+    margin: 0 auto;
+    box-shadow:2px 2px 5px #c3c3c3;
+}
+.main > .main-wrap > .right > .recommend > .p-title{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: #33cccc;
+}
+.main > .main-wrap > .right > .recommend > .recommend-wrap{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.main > .main-wrap > .right > .recommend > .recommend-wrap > .recomment-wrap-content{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+.main > .main-wrap > .right > .recommend > .recommend-wrap > .recomment-wrap-content > .pic{
+    margin-top: 5px;
+    float: left;
+}
+.main > .main-wrap > .right > .recommend > .recommend-wrap > .recomment-wrap-content > .desc{
+    width: 130px;
+    height: 30px;
+    font-size: 11px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.main > .main-wrap > .right > .cal{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #ffffff;
+    border-top: 2px solid #33cccc;
+    box-shadow:2px 2px 5px #c3c3c3;
+}
+
+/* 尾部部分 */

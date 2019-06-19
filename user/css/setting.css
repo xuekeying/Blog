@@ -1,0 +1,44 @@
+.content-personal{
+    width: 100%;
+}
+.content-personal > .flex-container {
+    /* display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; */
+    width: 95%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.content-personal > .flex-container > .form-msg{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.form-msg > span{
+    display: inline-block;
+    width: 5%;
+    height: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-msg > input[type="text"]{
+    border-bottom: 1px solid #333333;
+    background-color: #eeeeee;
+}
+.flex-container > .btn{
+    /* text-align: center; */
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+.form-msg > input[type="submit"],input[type="reset"]{
+    width: 100px;
+    height: 20px;
+    box-shadow: 2px 2px 5px #cccccc;
+    cursor: pointer;
+    margin-left: 10px;
+}
+/* .form-msg-one{
+    display: none;
+} */

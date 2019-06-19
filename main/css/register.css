@@ -1,0 +1,48 @@
+*{
+    background-color: #f8f8f8;
+}
+p{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.f1{
+    display: block;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #3c3c3c;
+}
+.f1 > .s1{
+    width: 25%;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+}
+.f1 > .msg{
+    display: inline-block;
+    font-size: 12px;
+    color: red;
+}
+.f1 > input{
+    border: 0;
+    border-bottom: 1px solid #333333;
+}
+.f1 > .btn{
+    width: 100%;
+    text-align: center;
+}
+.f1 > .btn > .btn1,.btn2{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.f1 > .btn > .btn1:hover,.f1 > .btn > .btn2:hover{
+    color:#33cccc;
+}

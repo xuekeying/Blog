@@ -1,0 +1,133 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+.line{
+    background-color: #ccc;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+}
+p{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 10px 0 15px;
+    display: inline-block;
+}
+.backBtn{
+    font-size: 12px;
+    cursor: pointer;
+}
+.resetBtn{
+    font-size: 12px;
+    cursor: pointer;
+}
+.article-title{
+    width: 100%;
+    height: 35px;
+}
+.article-title > span{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 15px 0 0 15px;
+}
+.article-introduction{
+    width: 100%;
+    height: 50px;
+}
+.article-introduction > span{
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.article-msg{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.article-msg > .article-author,.article-type{
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.article-content{
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    margin-top: 15px;
+}
+.article-content > .article-content-wrap{
+    width: 91%;
+    height: 100%;
+    margin: 0 auto;
+}
+.sub-comment{
+    width: 100%;
+    height: 70px;
+    margin-top: 15px;
+}
+.sub-comment > textarea{
+    display: block;
+    width: 70%;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+    line-height: 2.5em;
+}
+.sub-comment > button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #ccc;
+    cursor: pointer;
+}
+.comment-content{
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+}
+.comment-content > .comment-content-wrap{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 15px;
+}
+.comment-content > .comment-content-wrap > .comment-content-wrap-desc{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: white;
+}
+.comment-content > .comment-content-wrap > .comment-content-wrap-desc > .comment-author{
+    width: 90%;
+    margin: 30px 0 0 15px;
+    font-size: 13px;
+    background: white;
+}
+.comment-content > .comment-content-wrap > .comment-content-wrap-desc > .comment-desc{
+    width: 90%;
+    height: 45px;
+    margin: 10px auto;
+    background: white;
+}
+.comment-content > .comment-content-wrap > .comment-content-wrap-desc > .comment-date{
+    width: 95%;
+    text-align: right;
+    font-size: 12px;
+    color: #ccc;
+    background: white;
+}

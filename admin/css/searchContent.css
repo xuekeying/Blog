@@ -1,0 +1,60 @@
+*{
+    background-color: #eeeeee;
+}
+p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.backBtn{
+    font-size: 12px;
+    cursor: pointer;
+}
+.line{
+    background-color: #ccc;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+.content > .content-wrap{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    border-bottom: 2px solid #f2f2f2;
+}
+.content > .content-wrap > .title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.content > .content-wrap > .con{
+    font-size: 13px;
+    color: #cccccc;
+    height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.content > .content-wrap > .id{
+    display: none;
+}
+.content > .content-wrap > .info{
+    margin-top: 5px;
+}
+.content > .content-wrap > .info > .author,.type,.date,.like_num,.com_num{
+    font-size: 13px;
+    font-weight: 400;
+}
+.content > .content-wrap > .info > .type,.date,.like_num,.com_num{
+    color: #cccccc;
+}
+.content > .content-wrap > .info >.like_num,.com_num{
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+}
