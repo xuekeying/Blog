@@ -30,11 +30,12 @@
                 </select>
             </div>
 
-            <input type="submit" name="cancel" value="取消">
+            <input type="button" name="cancel" value="取消" id="cancel">
             <input type="submit" name="submit" value="提交">
         </form>
     </div>
     <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/editor.js"></script>
 
     <!-- 配置文件 -->
     <script type="text/javascript" src="/code/static/ueditor/ueditor.config.js"></script>

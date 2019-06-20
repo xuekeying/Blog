@@ -52,7 +52,6 @@
                 </div>
             </div>
             <div class="right">
-                <!-- 今日推荐 -->
                 <div class="recommend">
                     <div class="p-title">
                         <span class="ic">| </span>今日推荐
