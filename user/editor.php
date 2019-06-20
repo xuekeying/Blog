@@ -24,9 +24,14 @@
             <div class="a_type">
                 <span>文章类型</span>
                 <select name="articleType">
-                    <option value="热门">热门</option>
-                    <option value="Python">Python</option>
-                    <option value="linux">linux</option>
+                    <?php
+                        require "../link/db.php";
+                        $sql = "select * from blog_class";
+                        $result = mysql_query($sql,$conn);
+                        while($re = mysql_fetch_array($result)){
+                    ?>
+                    <option value="<?php echo $re['class'];?>"><?php echo $re['class'];?></option>
+                    <?php } mysql_close($conn);?>
                 </select>
             </div>
 
