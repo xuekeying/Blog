@@ -10,7 +10,8 @@
   $author = $_SESSION['userinfo']['username'];
   if(isset($_POST['submit'])){
     require "../link/db.php";
-    $sql = "insert into blog_article (id,title,introduction,content,author,date_created,date_modified,article_type) values(null,'$title','$introduction','$content','$author','$date_created','$date_modified','$articleType')";
+    $sql = "insert into blog_article (id,title,introduction,content,author,date_created,date_modified,article_type)" +
+            "values(null,'$title','$introduction','$content','$author','$date_created','$date_modified','$articleType')";
     $result = mysql_query($sql,$conn);
     if($result){
         echo "<script>alert('增加成功');</script>";
